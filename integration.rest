@@ -1,0 +1,11 @@
+POST http://localhost:9000/api/carros/novo HTTP/1.1
+content-type: application/json
+
+{
+    "marca": "ferrari",
+    "modelo": "812"
+}
+
+###
+GET http://localhost:9000/api/carros HTTP/1.1
+content-type: application/json
